@@ -7,7 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import { HeroSection } from "@/components/HeroSection";
 import { CategoryCards } from "@/components/CategoryCards";
-import { GamificationSection } from "@/components/GamificationSection";
+import { WhyChooseSection } from "@/components/WhyChooseSection";
 import { LeaderboardSection } from "@/components/LeaderboardSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { SocialSharingSection } from "@/components/SocialSharingSection";
@@ -19,7 +19,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       <HeroSection />
       <CategoryCards />
-      <GamificationSection />
+      <WhyChooseSection />
       <div className="container mx-auto px-4 py-12">
         <div className="grid lg:grid-cols-2 gap-8">
           <LeaderboardSection />
