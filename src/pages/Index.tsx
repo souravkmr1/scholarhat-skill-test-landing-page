@@ -11,6 +11,7 @@ import { WhyChooseSection } from "@/components/WhyChooseSection";
 import { LeaderboardSection } from "@/components/LeaderboardSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { SocialSharingSection } from "@/components/SocialSharingSection";
+import { CommunityFooter } from "@/components/CommunityFooter";
 import { FloatingActionWidget } from "@/components/FloatingActionWidget";
 import { MobileFooter } from "@/components/MobileFooter";
 
@@ -27,6 +28,7 @@ const Index = () => {
         </div>
       </div>
       <SocialSharingSection />
+      <CommunityFooter />
       <FloatingActionWidget />
       <MobileFooter />
     </div>
